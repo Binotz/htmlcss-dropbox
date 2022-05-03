@@ -161,14 +161,20 @@ nav li{
 
 .plans-column-layout{
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .plan-layout{
-
     width: calc( (100% / 3) - 40px);
-    /* TEST */
-    border: 1px solid lightgray;
+    height: 1200px;
+    margin-bottom: 50px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
+
+
 
 .plan-title{
     width: 100%;
@@ -186,8 +192,14 @@ nav li{
     font-weight: bold;
 }
 
+.plan-duration{
+    color: #768490;
+}
+
 .plan-description{
+    /* padding: 25px 25px 200px 25px; */
     padding: 25px;
+    
 }
 
 .plan-buy-now{
@@ -218,4 +230,50 @@ nav li{
 
 .plan-points i {
     color: #0363ff;
+}
+
+/* Plan single column */
+
+.plan-layout-onecolumn{
+    width: 100%;
+}
+
+.plan-description-onecolumn{
+    padding: 25px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.plan-left{
+    width: calc( (100% / 3) * 2);
+}
+
+.plan-left > div{
+    margin: 20px;
+}
+
+#plan-enterprise > *{
+    padding: 20px;
+}
+
+.plan-name-onecolumn{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-contact{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plan-right{
+    width: calc( 100% / 3);
+    padding: 8px;
+    text-align: end;
+}
+.plan-right a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
