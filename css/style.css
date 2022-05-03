@@ -9,11 +9,6 @@ img{
     width:100%;
 }
 
-/* DEBUG */
-.debug main{
-    background-color: aquamarine;
-}
-
 /* COMMON */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -36,7 +31,7 @@ main{
     margin: 0 auto;
 }
 .container-small{
-    width:70%;
+    width:60%;
     margin: 0 auto;
 }
 
@@ -123,4 +118,36 @@ nav li{
 
 .fa-arrow-down{
     font-size: 40px;
+}
+
+/* Plans */
+.plans{
+    margin-top: 250px;
+}
+
+.plans h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.monthly, .annual{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.invoices * {
+    vertical-align: middle;
+}
+
+.invoice-circle{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid lightgray ;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.invoice-selected{
+    border: 3px solid blue ;
 }
