@@ -31,12 +31,13 @@ main{
     margin: 0 auto;
 }
 .container-small{
-    width:60%;
+    width:65%;
     margin: 0 auto;
 }
 
 .btn{
     padding: 8px 25px;
+    text-decoration: none;
 }
 
 .btn-blue{
@@ -135,6 +136,10 @@ nav li{
     margin-right: 20px;
 }
 
+.invoices{
+    margin-bottom: 40px;
+}
+
 .invoices * {
     vertical-align: middle;
 }
@@ -150,4 +155,67 @@ nav li{
 
 .invoice-selected{
     border: 3px solid blue ;
+}
+
+/* Plans */
+
+.plans-column-layout{
+    justify-content: space-between;
+}
+
+.plan-layout{
+
+    width: calc( (100% / 3) - 40px);
+    /* TEST */
+    border: 1px solid lightgray;
+}
+
+.plan-title{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-name{
+    font-size: 25px;
+}
+
+.plan-name, .plan-price{
+    font-weight: bold;
+}
+
+.plan-description{
+    padding: 25px;
+}
+
+.plan-buy-now{
+    color: #0c68ff;
+}
+
+.plan-buy{
+    margin-bottom: 30px;
+}
+
+.plan-description hr{
+    width: 20%;
+}
+
+.plan-description > div{
+    margin-bottom: 50px;
+}
+
+.plan-description > div > div, .plan-points li{
+    margin-bottom: 25px;
+}
+
+.plan-line{
+    width: 20%;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.plan-points i {
+    color: #0363ff;
 }
