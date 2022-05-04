@@ -358,16 +358,15 @@ nav li{
     background-color: pink;
 }
 
-/* LEFT column and Cells */
+/* LEFT column */
 .business-teams-left-main-column-layout{
     width: 30%;
     flex-wrap: wrap;
-    /* TEST */
-    background-color: lightblue;
 }
 
-.business-teams-left-cell-layout{
-    width:50%;
+.business-teams-left-main-column-layout .business-teams-cell-layout:first-child{
+    background-color: #d0e9cd;
+    padding: 10px;
 }
 
 /* MIDDLE column */
@@ -377,7 +376,7 @@ nav li{
     background-color: lightcoral;
 }
 
-
+/* Right column */
 .business-teams-right-main-column-layout{
     width: 30%;
     flex-wrap: wrap;
@@ -385,6 +384,55 @@ nav li{
     background-color: lightgreen;
 }
 
-.business-teams-right-cell-layout{
+/* Cell */
+/* Common */
+.business-teams-cell-layout{
     width:50%;
+    height: 285.750px;
+}
+
+.business-teams-cell-content {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-teams-cell-content img{
+    width: 60%;
+    filter: invert(1); 
+}
+
+
+
+/* Cell colors */
+#designit{
+    background-color: #a2d39b;
+}
+
+#ASU{
+    background-color: #61082b;
+}
+
+#Florida{
+    background-color: #0093ce;
+}
+    
+#topps{
+    background-color: #ff1c1c;
+}
+
+#world_bicycle_relief{
+    background-color: #d5001f;
+}
+
+#hearst_corp{
+    background-color: #b4d0e7;
+}
+
+#lonely_planet{
+    background-color: #0d2481;
+}
+
+#clear_channel{
+    background-color: #ffd830;
 }
