@@ -1,0 +1,581 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width:100%;
+}
+
+/* COMMON */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+main{
+    margin-top: 80px;
+}
+
+section{
+    padding-bottom: 120px;
+}
+
+.flex{
+    display: flex;
+}
+
+ul.flex{
+    height: 100%;
+}
+
+.container-large{
+    width:85%;
+    margin: 0 auto;
+}
+.container-small{
+    width:65%;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 8px 25px;
+    text-decoration: none;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #0061ff;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* HEADER */
+/* Navbar */
+header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav li{
+    padding: 28px 20px;
+}
+
+.menu-left, .menu-right{
+    height: 100%;
+}
+
+.menu-left a{
+    vertical-align: middle;
+}
+
+ul .flex{
+    height: 100%;
+}
+
+
+/* BONUS */
+.menu-left li:hover, .menu-right li:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+/* MAIN */
+/* jumbotron */
+.jumbotron-layout{
+    background-color: #b4d0e7;
+    height: 800px;
+    padding: 100px;
+}
+
+.jumbotron-content{
+    position: relative;
+}
+
+.jumbotron-content h1{
+    font-size: 85px;
+}
+
+.jumbotron-description a{
+    text-decoration: none;
+}
+
+.jumbotron-description p, .jumbotron-cta{
+    margin-bottom: 50px;
+}
+
+.jumbotron-columns{
+    position: absolute;
+    top: 290px;
+}
+
+.jumbotron-description{
+    width: 40%;
+    padding-right: 100px; 
+    height: 320px;
+}
+
+.jumbotron-image{
+    width: 60%;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+}
+
+/* Plans */
+.plans{
+    margin-top: 250px;
+}
+
+.plans h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.monthly, .annual{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.invoices{
+    margin-bottom: 40px;
+}
+
+.invoices * {
+    vertical-align: middle;
+}
+
+.invoice-circle{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid lightgray ;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.invoice-selected{
+    border: 4px solid #0061ff ;
+}
+
+/* Plans */
+
+.plans-column-layout{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plan-layout{
+    width: calc( (100% / 3) - 40px);
+    height: 1200px;
+    margin-bottom: 50px;
+    border: 1px solid lightgray;
+}
+
+.plan-title{
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-name{
+    font-size: 25px;
+}
+
+.plan-name, .plan-price{
+    font-weight: bold;
+}
+
+.plan-duration{
+    color: #768490;
+}
+
+.plan-description{
+    padding: 25px;
+}
+
+.plan-short-description i{
+    padding-top: 5px;
+}
+
+.plan-points-title{
+    font-weight: bold;
+}
+
+.plan-buy-now{
+    color: #0c68ff;
+}
+
+.plan-buy{
+    margin-bottom: 30px;
+}
+
+.plan-free-trial{
+    text-align: center;
+}
+
+.plan-free-trial a{
+    display: inline-block;
+    width: 100%;
+}
+
+.plan-description hr{
+    width: 20%;
+}
+
+.plan-description > div{
+    margin-bottom: 50px;
+}
+
+.plan-description > div > div, .plan-points li{
+    margin-bottom: 25px;
+}
+
+.plan-line{
+    width: 20%;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.plan-points i {
+    color: #0363ff;
+}
+
+/* Plan single column */
+
+.plan-layout-onecolumn{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.plan-layout-onecolumn .plan-title{
+    border-bottom: 1px solid lightgray;
+}
+
+.plan-description-onecolumn{
+    padding: 25px;
+    /* border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; */
+}
+
+.plan-left{
+    width: 70%;
+}
+
+.plan-left > div{
+    margin-bottom: 20px;
+}
+
+#plan-enterprise > *{
+    padding: 20px;
+}
+
+.plan-name-onecolumn{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-contact{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plan-right{
+    width: 30%;
+    padding: 8px;
+    text-align: end;
+}
+.plan-right a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Partner */
+.partner-image{
+    width: 60%;
+}
+
+.partner-text{
+    width:40%;
+    padding: 60px;
+    padding-right: 0px;
+}
+
+.partner-title, .partner-description{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.partner-description{
+    line-height: 30px;
+}
+
+/* Business operation */
+
+.business-operation-layout h2{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.business-operation-grid-layout{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0px;
+}
+
+.business-operation-column-layout{
+    width: calc((100% / 3) - 40px);
+    margin-bottom: 50px;
+
+}
+
+.business-operation-column-content h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.business-operation-column-content span{
+    text-decoration: underline;
+}
+
+
+/* Business team */
+.business-teams h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.business-team-header a{
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #2b7bff;
+}
+
+.business-team-body{
+    width: 100%;
+}
+
+/* LEFT column */
+.business-teams-left-main-column-layout{
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.business-teams-left-main-column-layout .business-teams-cell-layout:first-child{
+    background-color: #d0e9cd;
+    padding: 10px;
+}
+
+/* MIDDLE column */
+.business-teams-center-main-column-layout{
+    background-color: #f5f5f5;
+    width: 40%;
+    padding: 60px;
+}
+.business-teams-center-main-column-content{
+    font-weight: 400;
+}
+.business-teams-center-main-column-content hr{
+    border: 1px solid lightgray;
+    width: 10%;
+}
+
+.business-teams-center-main-column-content > *{
+    margin-bottom: 60px;
+}
+
+.business-teams-center-logo{
+    width:23%;
+}
+
+
+/* Right column */
+.business-teams-right-main-column-layout{
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+/* Cell */
+/* Common */
+.business-teams-cell-layout{
+    width:50%;
+    height: 285.750px;
+}
+
+.business-teams-cell-content {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-teams-cell-content img{
+    width: 60%;
+    filter: invert(1); 
+}
+
+
+
+/* Cell colors */
+#designit{
+    background-color: #a2d39b;
+}
+
+#ASU{
+    background-color: #61082b;
+}
+
+#Florida{
+    background-color: #0093ce;
+}
+    
+#topps{
+    background-color: #ff1c1c;
+}
+
+#world_bicycle_relief{
+    background-color: #d5001f;
+}
+
+#hearst_corp{
+    background-color: #b4d0e7;
+}
+
+#lonely_planet{
+    background-color: #0d2481;
+}
+
+#clear_channel{
+    background-color: #ffd830;
+}
+
+/* dropbox business CTA */
+.business-teams-cta-layout{
+    justify-content: space-between;
+    background-color: #b4d0e7;
+    padding: 130px 0px;
+}
+
+.business-teams-cta-left{
+    color: #61082b;
+    width: 50%;
+}
+
+.business-teams-cta-left h3{
+    font-size: 45px;
+}
+.business-teams-cta-right{
+    width: 50%;
+    text-align: end;
+    padding-top: 10px;
+}
+
+
+.business-teams-cta-right a{
+    border: 1px solid white;
+    padding: 8px 80px;
+    
+}
+
+
+/* FAQ */
+.faq h3{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.faq-line-layout{
+    padding: 30px 0px;
+    font-weight: 700;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+}
+
+.faq-icon{
+    padding-right: 30px;
+}
+
+.faq-line-layout:first-child{
+    border-top: 1px solid lightgray;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: black;
+}
+
+.footer-menu-layout{
+    padding: 110px 80px 110px 0px;
+}
+
+.footer-menu-column-layout{
+    margin-bottom: 110px;
+}
+
+.footer-menu-column-content{
+    width: 20%;
+}
+
+.footer-menu-column-content h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-menu-column-content li{
+    padding: 5px 0px;
+}
+
+footer hr{
+    width: 8%;
+    color: black;
+    border: 0px solid black;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+}
+
+.footer-language{
+    color: #999999;
+}
+
+
+.footer-language *{
+    font-size: 13px;
+}
