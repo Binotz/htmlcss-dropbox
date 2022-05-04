@@ -515,9 +515,22 @@ ul .flex{
 
 .faq-line-layout{
     padding: 30px 0px;
-    font-weight: 700;
     border-bottom: 1px solid lightgray;
     justify-content: space-between;
+}
+
+.faq-question{
+    font-weight: 700;
+    /* margin-bottom: 15px; */
+}
+
+.faq-answer{
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: #747f85;
+    display: none;
 }
 
 .faq-icon{
@@ -526,6 +539,23 @@ ul .flex{
 
 .faq-line-layout:first-child{
     border-top: 1px solid lightgray;
+}
+
+.fa-chevron-up{
+    display: none;
+}
+
+/* BONUS */
+.faq-line-layout:hover .faq-answer{
+    display: inline-block;
+}
+
+.faq-line-layout:hover .fa-chevron-down{
+    display: none;
+}
+
+.faq-line-layout:hover .fa-chevron-up{
+    display: inline-block;
 }
 
 /* FOOTER */
