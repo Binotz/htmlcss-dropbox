@@ -45,6 +45,11 @@ main{
     background-color: #0061ff;
 }
 
+.btn-white{
+    color: black;
+    border: 1px solid black;
+}
+
 /* HEADER */
 /* Navbar */
 header{
@@ -162,16 +167,17 @@ nav li{
 .plans-column-layout{
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
+
+/* .plan-content{
+    border: 1px solid lightgray; 
+} */
 
 .plan-layout{
     width: calc( (100% / 3) - 40px);
     height: 1200px;
     margin-bottom: 50px;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border: 1px solid lightgray;
 }
 
 
@@ -179,7 +185,7 @@ nav li{
 .plan-title{
     width: 100%;
     padding: 15px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     justify-content: center;
     align-items: center;
 }
@@ -236,13 +242,18 @@ nav li{
 
 .plan-layout-onecolumn{
     width: 100%;
+    border: 1px solid lightgray;
+}
+
+.plan-layout-onecolumn .plan-title{
+    border-bottom: 1px solid lightgray;
 }
 
 .plan-description-onecolumn{
     padding: 25px;
-    border-left: 1px solid lightgray;
+    /* border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; */
 }
 
 .plan-left{
@@ -250,7 +261,7 @@ nav li{
 }
 
 .plan-left > div{
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 #plan-enterprise > *{
@@ -276,4 +287,24 @@ nav li{
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+
+/* Partner */
+.partner-layout{
+    padding: 150px 0px;
+}
+
+.partner-image{
+    width: 60%;
+}
+
+.partner-text{
+    width:40%;
+    padding: 60px;
+    padding-right: 0px;
+}
+
+.partner-title, .partner-description{
+    margin-bottom: 30px;
+    font-size: 18px;
 }
