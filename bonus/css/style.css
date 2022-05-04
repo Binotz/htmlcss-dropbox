@@ -645,6 +645,10 @@ footer hr{
     display: inline-block;
 }
 
+.dropdown-menu:hover .dropdown li:hover{
+    background-color: lightgray;
+}
+
 .dropdown-layout{
     background-color: white;
     border: 1px solid lightgray;
