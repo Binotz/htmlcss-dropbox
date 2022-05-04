@@ -292,6 +292,7 @@ nav li{
 /* Partner */
 .partner-layout{
     padding: 150px 0px;
+    padding-bottom: 120px;
 }
 
 .partner-image{
@@ -311,4 +312,32 @@ nav li{
 
 .partner-description{
     line-height: 30px;
+}
+
+/* Business operation */
+.business-operation-layout h2{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.business-operation-grid-layout{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 0px;
+}
+
+.business-operation-column-layout{
+    width: calc((100% / 3) - 40px);
+    margin-bottom: 50px;
+    /* TEST */
+    /* border: 1px solid black; */
+}
+
+.business-operation-column-content h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.business-operation-column-content span{
+    text-decoration: underline;
 }
