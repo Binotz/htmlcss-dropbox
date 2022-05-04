@@ -164,7 +164,7 @@ nav li{
 }
 
 .invoice-selected{
-    border: 3px solid blue ;
+    border: 4px solid #0061ff ;
 }
 
 /* Plans */
@@ -174,18 +174,12 @@ nav li{
     flex-wrap: wrap;
 }
 
-/* .plan-content{
-    border: 1px solid lightgray; 
-} */
-
 .plan-layout{
     width: calc( (100% / 3) - 40px);
     height: 1200px;
     margin-bottom: 50px;
     border: 1px solid lightgray;
 }
-
-
 
 .plan-title{
     width: 100%;
@@ -211,12 +205,29 @@ nav li{
     padding: 25px;
 }
 
+.plan-short-description i{
+    padding-top: 5px;
+}
+
+.plan-points-title{
+    font-weight: bold;
+}
+
 .plan-buy-now{
     color: #0c68ff;
 }
 
 .plan-buy{
     margin-bottom: 30px;
+}
+
+.plan-free-trial{
+    text-align: center;
+}
+
+.plan-free-trial a{
+    display: inline-block;
+    width: 100%;
 }
 
 .plan-description hr{
@@ -260,7 +271,7 @@ nav li{
 }
 
 .plan-left{
-    width: calc( (100% / 3) * 2);
+    width: 70%;
 }
 
 .plan-left > div{
@@ -282,7 +293,7 @@ nav li{
 }
 
 .plan-right{
-    width: calc( 100% / 3);
+    width: 30%;
     padding: 8px;
     text-align: end;
 }
@@ -350,6 +361,7 @@ nav li{
 .business-team-header a{
     display: inline-block;
     margin-bottom: 50px;
+    color: #2b7bff;
 }
 
 .business-team-body{
@@ -497,4 +509,48 @@ nav li{
 
 .faq-line-layout:first-child{
     border-top: 1px solid lightgray;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: black;
+}
+
+.footer-menu-layout{
+    padding: 110px 80px 110px 0px;
+}
+
+.footer-menu-column-layout{
+    margin-bottom: 110px;
+}
+
+.footer-menu-column-content{
+    width: 20%;
+}
+
+.footer-menu-column-content h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-menu-column-content li{
+    padding: 5px 0px;
+}
+
+footer hr{
+    width: 8%;
+    color: black;
+    border: 0px solid black;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+}
+
+.footer-language{
+    color: #999999;
+}
+
+
+.footer-language *{
+    font-size: 13px;
 }
