@@ -50,6 +50,7 @@ section{
 }
 
 .btn-white{
+    background-color: white;
     color: black;
     border: 1px solid black;
 }
@@ -446,4 +447,32 @@ nav li{
 
 #clear_channel{
     background-color: #ffd830;
+}
+
+/* dropbox business CTA */
+.business-teams-cta-layout{
+    justify-content: space-between;
+    background-color: #b4d0e7;
+    padding: 130px 0px;
+}
+
+.business-teams-cta-left{
+    color: #61082b;
+    width: 50%;
+}
+
+.business-teams-cta-left h3{
+    font-size: 45px;
+}
+.business-teams-cta-right{
+    width: 50%;
+    text-align: end;
+    padding-top: 10px;
+}
+
+
+.business-teams-cta-right a{
+    border: 1px solid white;
+    padding: 8px 80px;
+    
 }
