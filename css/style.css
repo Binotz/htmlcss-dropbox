@@ -22,6 +22,10 @@ main{
     margin-top: 80px;
 }
 
+section{
+    padding-bottom: 120px;
+}
+
 .flex{
     display: flex;
 }
@@ -203,9 +207,7 @@ nav li{
 }
 
 .plan-description{
-    /* padding: 25px 25px 200px 25px; */
     padding: 25px;
-    
 }
 
 .plan-buy-now{
@@ -290,11 +292,6 @@ nav li{
 }
 
 /* Partner */
-.partner-layout{
-    padding: 150px 0px;
-    padding-bottom: 120px;
-}
-
 .partner-image{
     width: 60%;
 }
@@ -315,6 +312,7 @@ nav li{
 }
 
 /* Business operation */
+
 .business-operation-layout h2{
     font-size: 50px;
     margin-bottom: 60px;
@@ -340,4 +338,53 @@ nav li{
 
 .business-operation-column-content span{
     text-decoration: underline;
+}
+
+
+/* Business team */
+.business-teams h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.business-team-header a{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.business-team-body{
+    width: 100%;
+    /* TEST */
+    background-color: pink;
+}
+
+/* LEFT column and Cells */
+.business-teams-left-main-column-layout{
+    width: 30%;
+    flex-wrap: wrap;
+    /* TEST */
+    background-color: lightblue;
+}
+
+.business-teams-left-cell-layout{
+    width:50%;
+}
+
+/* MIDDLE column */
+.business-teams-center-main-column-layout{
+    width: 40%;
+    /* TEST */
+    background-color: lightcoral;
+}
+
+
+.business-teams-right-main-column-layout{
+    width: 30%;
+    flex-wrap: wrap;
+    /* TEST */
+    background-color: lightgreen;
+}
+
+.business-teams-right-cell-layout{
+    width:50%;
 }
