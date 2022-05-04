@@ -92,12 +92,26 @@ nav li{
     padding: 28px 20px;
 }
 
+.menu-left img{
+    padding: 28px 20px;
+}
+
 .menu-left, .menu-right{
+    align-items: center;
     height: 100%;
 }
 
 .menu-left a{
     vertical-align: middle;
+}
+
+.menu-right{
+    padding-right: 15px;
+}
+
+.menu-right .btn{
+    padding: 8px 20px;
+    margin-left: 20px;
 }
 
 ul .flex{
